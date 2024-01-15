@@ -5,4 +5,68 @@
   *
   {
     font-family: 'Work Sans', sans-serif;
-  }
+  } 
+
+  /* header styles */
+
+  header{
+    background: rgba(255, 144, 14, 0.10);
+    padding:50px 240px;
+
+  } 
+
+  nav
+  {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+  } 
+.nav-title 
+{
+    color:  #131313;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+  nav>ul
+  {
+    display:flex;
+  } 
+  nav li
+  {
+    list-style: none;
+    margin-right:30px;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+  } 
+
+  nav li a{
+    text-decoration: none;
+    color:  #424242;
+  } 
+
+  /* banner styles */
+  .banner-content
+  {
+    width:800px;
+    text-align:center;
+    margin:0 auto;
+   } 
+
+   .banner-title
+   { 
+    color:  #131313;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+   } 
+   .banner-description
+   {
+    color:#727272;
+    text-align: center;
+    font-weight: 400;
+
+   }
